@@ -28,7 +28,7 @@ class ArrayQueue:
     def is_empty(self) -> bool:
         return self.size == 0
 
-    def capacity(self) -> int:
+    def get_capacity(self) -> int:
         return self.capacity
 
 
